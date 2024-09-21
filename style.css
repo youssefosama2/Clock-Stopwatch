@@ -12,6 +12,7 @@ body{
 }
 .sec1 div{
 border: 10px solid #035BAC;
+box-shadow: 3px 3px 13px #035BAC;
 width: 700px;
 border-radius: 8px;
 margin-top: 40px;
@@ -35,6 +36,7 @@ margin-top: 40px;
 }
 .stopWatch .divvv{
 border: 10px solid #035BAC;
+box-shadow: 3px 3px 13px #035BAC;
 width: 700px;
 border-radius: 8px;
 margin-top: 40px;
@@ -50,11 +52,15 @@ margin-top: 40px;
     justify-content: center;
     margin: 10px;
 }
+.stopWatch button{
+    background: 0;
+    border: 0;
+}
 .stopWatch .fa-square{
     color: #ccc;
     font-size: 30px;
     padding: 15px;
-    border: 1px solid #ccc;
+    border: 3px solid #ccc;
     border-radius: 50%;
     margin: 5px;
     display: flex;
@@ -66,7 +72,7 @@ margin-top: 40px;
     color: #ccc;
     font-size: 30px;
     padding: 15px;
-    border: 1px solid #ccc;
+    border: 3px solid #ccc;
     border-radius: 50%;
     margin: 5px;
     display: flex;
@@ -79,7 +85,7 @@ margin-top: 40px;
     background-color: orangered;
     font-size: 50px;
     padding: 15px;
-    border: 1px solid orangered;
+    border: 3px solid orangered;
     border-radius: 50%;
     margin: 5px;
     height: 70px;
