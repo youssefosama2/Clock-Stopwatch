@@ -67,6 +67,7 @@ margin-top: 40px;
     align-items: center;
     height: 60px;
     margin-top: 10px;
+    cursor: pointer;
 }
 .stopWatch .fa-rotate-left{
     color: #ccc;
@@ -79,6 +80,7 @@ margin-top: 40px;
     align-items: center;
     height: 60px;
     margin-top: 10px;
+    cursor: pointer;
 }
 .stopWatch .fa-caret-right{
     color: #ccc;
@@ -91,4 +93,5 @@ margin-top: 40px;
     height: 70px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
